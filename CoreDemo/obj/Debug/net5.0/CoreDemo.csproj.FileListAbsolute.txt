@@ -151,3 +151,6 @@ C:\Users\DNCR\source\repos\CoreDemo\CoreDemo\bin\Debug\net5.0\BusinessLayer.pdb
 C:\Users\DNCR\source\repos\CoreDemo\CoreDemo\bin\Debug\net5.0\DataAccessLayer.pdb
 C:\Users\DNCR\source\repos\CoreDemo\CoreDemo\bin\Debug\net5.0\EntityLayer.pdb
 C:\Users\DNCR\source\repos\CoreDemo\CoreDemo\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\DNCR\source\repos\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Category\Index.cshtml.g.cs
+C:\Users\DNCR\source\repos\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Shared\UserLayout.cshtml.g.cs
+C:\Users\DNCR\source\repos\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Blog\Index.cshtml.g.cs
