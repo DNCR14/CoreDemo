@@ -2,7 +2,6 @@ C:\Users\DNCR\source\repos\CoreDemo\EntityLayer\bin\Debug\net5.0\EntityLayer.dep
 C:\Users\DNCR\source\repos\CoreDemo\EntityLayer\bin\Debug\net5.0\EntityLayer.dll
 C:\Users\DNCR\source\repos\CoreDemo\EntityLayer\bin\Debug\net5.0\ref\EntityLayer.dll
 C:\Users\DNCR\source\repos\CoreDemo\EntityLayer\bin\Debug\net5.0\EntityLayer.pdb
-C:\Users\DNCR\source\repos\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.csproj.AssemblyReference.cache
 C:\Users\DNCR\source\repos\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\DNCR\source\repos\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.AssemblyInfoInputs.cache
 C:\Users\DNCR\source\repos\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.AssemblyInfo.cs
@@ -10,3 +9,4 @@ C:\Users\DNCR\source\repos\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.csp
 C:\Users\DNCR\source\repos\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.dll
 C:\Users\DNCR\source\repos\CoreDemo\EntityLayer\obj\Debug\net5.0\ref\EntityLayer.dll
 C:\Users\DNCR\source\repos\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.pdb
+C:\Users\DNCR\source\repos\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.csproj.AssemblyReference.cache
