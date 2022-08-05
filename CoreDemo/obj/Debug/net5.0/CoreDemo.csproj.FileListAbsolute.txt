@@ -175,3 +175,4 @@ C:\Users\DNCR\source\repos\CoreDemo\CoreDemo\obj\Debug\net5.0\refint\CoreDemo.dl
 C:\Users\DNCR\source\repos\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\About\Index.cshtml.g.cs
 C:\Users\DNCR\source\repos\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\About\SocialMediaAbout.cshtml.g.cs
 C:\Users\DNCR\source\repos\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Contact\Index.cshtml.g.cs
+C:\Users\DNCR\source\repos\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Writer\Index.cshtml.g.cs
