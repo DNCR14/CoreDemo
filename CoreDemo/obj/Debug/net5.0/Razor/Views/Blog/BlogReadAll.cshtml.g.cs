@@ -28,7 +28,9 @@ using CoreDemo.Models;
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"9e07bd15f2667f309881a21a233e68b027deb873", @"/Views/Blog/BlogReadAll.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"c0e2cbebe4b7cca4b09168dd159f601192fafdf0", @"/Views/_ViewImports.cshtml")]
+    #nullable restore
     public class Views_Blog_BlogReadAll : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<IEnumerable<EntityLayer.Concrete.Blog>>
+    #nullable disable
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("src", new global::Microsoft.AspNetCore.Html.HtmlString("~/web/images/b1.jpg"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_1 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("class", new global::Microsoft.AspNetCore.Html.HtmlString("img-fluid"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -69,7 +71,7 @@ using CoreDemo.Models;
 #line hidden
 #nullable disable
             WriteLiteral("\r\n\r\n<!DOCTYPE html>\r\n<html lang=\"zxx\">\r\n\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9e07bd15f2667f309881a21a233e68b027deb8734962", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9e07bd15f2667f309881a21a233e68b027deb8735008", async() => {
                 WriteLiteral("\r\n\r\n\r\n    <section class=\"banner-bottom\">\r\n        <!--/blog-->\r\n        <div class=\"container\">\r\n            <div class=\"row\">\r\n                <!--left-->\r\n                <div class=\"col-lg-8 left-blog-info-w3layouts-agileits text-left\">\r\n");
 #nullable restore
 #line 20 "C:\Users\DNCR\source\repos\CoreDemo\CoreDemo\Views\Blog\BlogReadAll.cshtml"
@@ -84,7 +86,7 @@ using CoreDemo.Models;
                                 <div class=""blog_info_left_grid"">
                                     <a href=""single.html"">
                                         ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "9e07bd15f2667f309881a21a233e68b027deb8736031", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "9e07bd15f2667f309881a21a233e68b027deb8736077", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -184,7 +186,7 @@ using CoreDemo.Models;
                     <div class=""right-blog-info text-left"">
                         <div class=""tech-btm"">
                             ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "9e07bd15f2667f309881a21a233e68b027deb87310797", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "9e07bd15f2667f309881a21a233e68b027deb87310843", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -255,7 +257,7 @@ using CoreDemo.Models;
                                     <a href=""single.html"">
                           ");
                 WriteLiteral("              ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "9e07bd15f2667f309881a21a233e68b027deb87315205", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "9e07bd15f2667f309881a21a233e68b027deb87315251", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -307,16 +309,26 @@ using CoreDemo.Models;
             WriteLiteral("\r\n\r\n</html>\r\n\r\n");
         }
         #pragma warning restore 1998
+        #nullable restore
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
-        public global::Microsoft.AspNetCore.Mvc.ViewFeatures.IModelExpressionProvider ModelExpressionProvider { get; private set; }
+        public global::Microsoft.AspNetCore.Mvc.ViewFeatures.IModelExpressionProvider ModelExpressionProvider { get; private set; } = default!;
+        #nullable disable
+        #nullable restore
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
-        public global::Microsoft.AspNetCore.Mvc.IUrlHelper Url { get; private set; }
+        public global::Microsoft.AspNetCore.Mvc.IUrlHelper Url { get; private set; } = default!;
+        #nullable disable
+        #nullable restore
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
-        public global::Microsoft.AspNetCore.Mvc.IViewComponentHelper Component { get; private set; }
+        public global::Microsoft.AspNetCore.Mvc.IViewComponentHelper Component { get; private set; } = default!;
+        #nullable disable
+        #nullable restore
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
-        public global::Microsoft.AspNetCore.Mvc.Rendering.IJsonHelper Json { get; private set; }
+        public global::Microsoft.AspNetCore.Mvc.Rendering.IJsonHelper Json { get; private set; } = default!;
+        #nullable disable
+        #nullable restore
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
-        public global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<IEnumerable<EntityLayer.Concrete.Blog>> Html { get; private set; }
+        public global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<IEnumerable<EntityLayer.Concrete.Blog>> Html { get; private set; } = default!;
+        #nullable disable
     }
 }
 #pragma warning restore 1591

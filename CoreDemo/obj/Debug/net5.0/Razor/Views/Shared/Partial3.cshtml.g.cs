@@ -28,7 +28,9 @@ using CoreDemo.Models;
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"ca328eea95f09a587330122557a8d1eba1f34feb", @"/Views/Shared/Partial3.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"c0e2cbebe4b7cca4b09168dd159f601192fafdf0", @"/Views/_ViewImports.cshtml")]
+    #nullable restore
     public class Views_Shared_Partial3 : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
+    #nullable disable
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("src", new global::Microsoft.AspNetCore.Html.HtmlString("~/web/images/4.jpg"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_1 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("class", new global::Microsoft.AspNetCore.Html.HtmlString("card-img-top img-fluid"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -82,7 +84,7 @@ using CoreDemo.Models;
                         <div class=""col-md-5 blog-grid-left"">
                             <a href=""single.html"">
                                 ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "ca328eea95f09a587330122557a8d1eba1f34feb6992", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "ca328eea95f09a587330122557a8d1eba1f34feb7038", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -117,7 +119,7 @@ using CoreDemo.Models;
                         <div class=""col-md-5 blog-grid-left"">
                             <a href=""single.html"">
                                 ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "ca328eea95f09a587330122557a8d1eba1f34feb9028", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "ca328eea95f09a587330122557a8d1eba1f34feb9074", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -152,7 +154,7 @@ using CoreDemo.Models;
                         <div class=""col-md-5 blog-grid-left"">
                             <a href=""single.html"">
                                 ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "ca328eea95f09a587330122557a8d1eba1f34feb11064", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "ca328eea95f09a587330122557a8d1eba1f34feb11110", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -191,7 +193,7 @@ using CoreDemo.Models;
                 <div class=""subscribe-main text-left"">
                     <div class=""subscribe-form"">
                         ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ca328eea95f09a587330122557a8d1eba1f34feb13243", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ca328eea95f09a587330122557a8d1eba1f34feb13289", async() => {
                 WriteLiteral("\r\n                            <input class=\"form-control\" type=\"email\" placeholder=\"Enter your email...\"");
                 BeginWriteAttribute("required", " required=\"", 3839, "\"", 3850, 0);
                 EndWriteAttribute();
@@ -271,16 +273,26 @@ using CoreDemo.Models;
 </footer>");
         }
         #pragma warning restore 1998
+        #nullable restore
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
-        public global::Microsoft.AspNetCore.Mvc.ViewFeatures.IModelExpressionProvider ModelExpressionProvider { get; private set; }
+        public global::Microsoft.AspNetCore.Mvc.ViewFeatures.IModelExpressionProvider ModelExpressionProvider { get; private set; } = default!;
+        #nullable disable
+        #nullable restore
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
-        public global::Microsoft.AspNetCore.Mvc.IUrlHelper Url { get; private set; }
+        public global::Microsoft.AspNetCore.Mvc.IUrlHelper Url { get; private set; } = default!;
+        #nullable disable
+        #nullable restore
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
-        public global::Microsoft.AspNetCore.Mvc.IViewComponentHelper Component { get; private set; }
+        public global::Microsoft.AspNetCore.Mvc.IViewComponentHelper Component { get; private set; } = default!;
+        #nullable disable
+        #nullable restore
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
-        public global::Microsoft.AspNetCore.Mvc.Rendering.IJsonHelper Json { get; private set; }
+        public global::Microsoft.AspNetCore.Mvc.Rendering.IJsonHelper Json { get; private set; } = default!;
+        #nullable disable
+        #nullable restore
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
-        public global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<dynamic> Html { get; private set; }
+        public global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<dynamic> Html { get; private set; } = default!;
+        #nullable disable
     }
 }
 #pragma warning restore 1591

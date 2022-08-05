@@ -28,7 +28,9 @@ using CoreDemo.Models;
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"2868ff8ebba3f923afe4882ca370facda138cb07", @"/Views/Shared/UserLayout.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"c0e2cbebe4b7cca4b09168dd159f601192fafdf0", @"/Views/_ViewImports.cshtml")]
+    #nullable restore
     public class Views_Shared_UserLayout : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
+    #nullable disable
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("href", new global::Microsoft.AspNetCore.Html.HtmlString("~/web/css/bootstrap.css"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_1 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("rel", new global::Microsoft.AspNetCore.Html.HtmlString("stylesheet"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.SingleQuotes);
@@ -77,7 +79,7 @@ using CoreDemo.Models;
 #line hidden
 #nullable disable
             WriteLiteral("\r\n\r\n<!DOCTYPE html>\r\n<html lang=\"zxx\">\r\n\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2868ff8ebba3f923afe4882ca370facda138cb077566", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2868ff8ebba3f923afe4882ca370facda138cb077612", async() => {
                 WriteLiteral(@"
     <title>Weblog a Blogging Category Bootstrap responsive WebTemplate | Blog3 :: w3layouts</title>
     <meta name=""viewport"" content=""width=device-width, initial-scale=1"">
@@ -95,7 +97,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		}
     </script>
     ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "2868ff8ebba3f923afe4882ca370facda138cb078484", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "2868ff8ebba3f923afe4882ca370facda138cb078530", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -111,7 +113,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n    ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "2868ff8ebba3f923afe4882ca370facda138cb079749", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "2868ff8ebba3f923afe4882ca370facda138cb079795", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -126,7 +128,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n    ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "2868ff8ebba3f923afe4882ca370facda138cb0710928", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "2868ff8ebba3f923afe4882ca370facda138cb0710974", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -142,7 +144,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n    ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "2868ff8ebba3f923afe4882ca370facda138cb0712194", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "2868ff8ebba3f923afe4882ca370facda138cb0712240", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -169,7 +171,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2868ff8ebba3f923afe4882ca370facda138cb0714246", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2868ff8ebba3f923afe4882ca370facda138cb0714292", async() => {
                 WriteLiteral(@"
     <!--Header-->
 
@@ -242,7 +244,7 @@ Write(await Html.PartialAsync("Partial3"));
 #line hidden
 #nullable disable
                 WriteLiteral("\r\n    <!---->\r\n    <!-- js -->\r\n    ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2868ff8ebba3f923afe4882ca370facda138cb0717192", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2868ff8ebba3f923afe4882ca370facda138cb0717238", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -256,7 +258,7 @@ Write(await Html.PartialAsync("Partial3"));
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n    <!-- //js -->\r\n    <!--/ start-smoth-scrolling -->\r\n    ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2868ff8ebba3f923afe4882ca370facda138cb0718352", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2868ff8ebba3f923afe4882ca370facda138cb0718398", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -270,7 +272,7 @@ Write(await Html.PartialAsync("Partial3"));
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n    ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2868ff8ebba3f923afe4882ca370facda138cb0719452", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2868ff8ebba3f923afe4882ca370facda138cb0719498", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -319,7 +321,7 @@ Write(await Html.PartialAsync("Partial3"));
 
     <!-- //Custom-JavaScript-File-Links -->
     ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2868ff8ebba3f923afe4882ca370facda138cb0721417", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2868ff8ebba3f923afe4882ca370facda138cb0721463", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -347,16 +349,26 @@ Write(await Html.PartialAsync("Partial3"));
             WriteLiteral("\r\n\r\n</html>");
         }
         #pragma warning restore 1998
+        #nullable restore
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
-        public global::Microsoft.AspNetCore.Mvc.ViewFeatures.IModelExpressionProvider ModelExpressionProvider { get; private set; }
+        public global::Microsoft.AspNetCore.Mvc.ViewFeatures.IModelExpressionProvider ModelExpressionProvider { get; private set; } = default!;
+        #nullable disable
+        #nullable restore
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
-        public global::Microsoft.AspNetCore.Mvc.IUrlHelper Url { get; private set; }
+        public global::Microsoft.AspNetCore.Mvc.IUrlHelper Url { get; private set; } = default!;
+        #nullable disable
+        #nullable restore
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
-        public global::Microsoft.AspNetCore.Mvc.IViewComponentHelper Component { get; private set; }
+        public global::Microsoft.AspNetCore.Mvc.IViewComponentHelper Component { get; private set; } = default!;
+        #nullable disable
+        #nullable restore
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
-        public global::Microsoft.AspNetCore.Mvc.Rendering.IJsonHelper Json { get; private set; }
+        public global::Microsoft.AspNetCore.Mvc.Rendering.IJsonHelper Json { get; private set; } = default!;
+        #nullable disable
+        #nullable restore
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
-        public global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<dynamic> Html { get; private set; }
+        public global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<dynamic> Html { get; private set; } = default!;
+        #nullable disable
     }
 }
 #pragma warning restore 1591

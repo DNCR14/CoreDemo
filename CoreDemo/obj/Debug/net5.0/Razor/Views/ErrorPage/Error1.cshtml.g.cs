@@ -28,7 +28,9 @@ using CoreDemo.Models;
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"80a58b8c9c51341780575c4504b8c52b070711a2", @"/Views/ErrorPage/Error1.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"c0e2cbebe4b7cca4b09168dd159f601192fafdf0", @"/Views/_ViewImports.cshtml")]
+    #nullable restore
     public class Views_ErrorPage_Error1 : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
+    #nullable disable
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("rel", new global::Microsoft.AspNetCore.Html.HtmlString("stylesheet"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_1 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("href", new global::Microsoft.AspNetCore.Html.HtmlString("~/weberror/css/style.css"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -76,7 +78,7 @@ using CoreDemo.Models;
 #line hidden
 #nullable disable
             WriteLiteral("\r\n\r\n<!--\r\nAuthor: W3layouts\r\nAuthor URL: http://w3layouts.com\r\n-->\r\n<!DOCTYPE html>\r\n<html lang=\"zxx\">\r\n\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "80a58b8c9c51341780575c4504b8c52b070711a26754", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "80a58b8c9c51341780575c4504b8c52b070711a26800", async() => {
                 WriteLiteral(@"
     <title>Bicycle Error Page Responsive Widget Template :: W3layouts</title>
     <!-- Meta tag Keywords -->
@@ -96,7 +98,7 @@ using CoreDemo.Models;
     <!-- //Meta tag Keywords -->
     <!--/Style-CSS -->
     ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "80a58b8c9c51341780575c4504b8c52b070711a27760", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "80a58b8c9c51341780575c4504b8c52b070711a27806", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -113,7 +115,7 @@ using CoreDemo.Models;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n    <!--//Style-CSS -->\r\n    <!-- font-awesome-icons -->\r\n    ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "80a58b8c9c51341780575c4504b8c52b070711a29174", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "80a58b8c9c51341780575c4504b8c52b070711a29220", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -140,7 +142,7 @@ using CoreDemo.Models;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "80a58b8c9c51341780575c4504b8c52b070711a211098", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "80a58b8c9c51341780575c4504b8c52b070711a211144", async() => {
                 WriteLiteral(@"
     <section class=""w3l-error-61-404"">
         <!-- /error-61-section -->
@@ -152,7 +154,7 @@ using CoreDemo.Models;
 
                         <p>Hayda! Sayfa Bulunamadı!</p>
                         ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "80a58b8c9c51341780575c4504b8c52b070711a211731", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "80a58b8c9c51341780575c4504b8c52b070711a211777", async() => {
                     WriteLiteral("\r\n                            <input type=\"search\" placeholder=\"Ara\" required=\"required\">\r\n                            <button type=\"submit\"><span class=\"fa fa-search\" aria-hidden=\"true\"></span></button>\r\n                        ");
                 }
                 );
@@ -221,16 +223,26 @@ using CoreDemo.Models;
             WriteLiteral("\r\n\r\n</html>");
         }
         #pragma warning restore 1998
+        #nullable restore
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
-        public global::Microsoft.AspNetCore.Mvc.ViewFeatures.IModelExpressionProvider ModelExpressionProvider { get; private set; }
+        public global::Microsoft.AspNetCore.Mvc.ViewFeatures.IModelExpressionProvider ModelExpressionProvider { get; private set; } = default!;
+        #nullable disable
+        #nullable restore
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
-        public global::Microsoft.AspNetCore.Mvc.IUrlHelper Url { get; private set; }
+        public global::Microsoft.AspNetCore.Mvc.IUrlHelper Url { get; private set; } = default!;
+        #nullable disable
+        #nullable restore
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
-        public global::Microsoft.AspNetCore.Mvc.IViewComponentHelper Component { get; private set; }
+        public global::Microsoft.AspNetCore.Mvc.IViewComponentHelper Component { get; private set; } = default!;
+        #nullable disable
+        #nullable restore
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
-        public global::Microsoft.AspNetCore.Mvc.Rendering.IJsonHelper Json { get; private set; }
+        public global::Microsoft.AspNetCore.Mvc.Rendering.IJsonHelper Json { get; private set; } = default!;
+        #nullable disable
+        #nullable restore
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
-        public global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<dynamic> Html { get; private set; }
+        public global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<dynamic> Html { get; private set; } = default!;
+        #nullable disable
     }
 }
 #pragma warning restore 1591

@@ -121,7 +121,6 @@ C:\Users\DNCR\source\repos\CoreDemo\CoreDemo\obj\Debug\net5.0\CoreDemo.MvcApplic
 C:\Users\DNCR\source\repos\CoreDemo\CoreDemo\obj\Debug\net5.0\CoreDemo.RazorAssemblyInfo.cache
 C:\Users\DNCR\source\repos\CoreDemo\CoreDemo\obj\Debug\net5.0\CoreDemo.RazorAssemblyInfo.cs
 C:\Users\DNCR\source\repos\CoreDemo\CoreDemo\obj\Debug\net5.0\staticwebassets\CoreDemo.StaticWebAssets.Manifest.cache
-C:\Users\DNCR\source\repos\CoreDemo\CoreDemo\obj\Debug\net5.0\staticwebassets\CoreDemo.StaticWebAssets.xml
 C:\Users\DNCR\source\repos\CoreDemo\CoreDemo\obj\Debug\net5.0\scopedcss\bundle\CoreDemo.styles.css
 C:\Users\DNCR\source\repos\CoreDemo\CoreDemo\obj\Debug\net5.0\CoreDemo.TagHelpers.input.cache
 C:\Users\DNCR\source\repos\CoreDemo\CoreDemo\obj\Debug\net5.0\CoreDemo.TagHelpers.output.cache
@@ -158,7 +157,6 @@ C:\Users\DNCR\source\repos\CoreDemo\CoreDemo\bin\Debug\net5.0\CoreDemo.exe
 C:\Users\DNCR\source\repos\CoreDemo\CoreDemo\bin\Debug\net5.0\CoreDemo.deps.json
 C:\Users\DNCR\source\repos\CoreDemo\CoreDemo\bin\Debug\net5.0\CoreDemo.runtimeconfig.json
 C:\Users\DNCR\source\repos\CoreDemo\CoreDemo\bin\Debug\net5.0\CoreDemo.runtimeconfig.dev.json
-C:\Users\DNCR\source\repos\CoreDemo\CoreDemo\bin\Debug\net5.0\ref\CoreDemo.dll
 C:\Users\DNCR\source\repos\CoreDemo\CoreDemo\bin\Debug\net5.0\CoreDemo.pdb
 C:\Users\DNCR\source\repos\CoreDemo\CoreDemo\bin\Debug\net5.0\CoreDemo.Views.pdb
 C:\Users\DNCR\source\repos\CoreDemo\CoreDemo\obj\Debug\net5.0\CoreDemo.csproj.CopyComplete
@@ -173,3 +171,4 @@ C:\Users\DNCR\source\repos\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Shared
 C:\Users\DNCR\source\repos\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\NewsLetter\Index.cshtml.g.cs
 C:\Users\DNCR\source\repos\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\NewsLetter\SubscribeMail.cshtml.g.cs
 C:\Users\DNCR\source\repos\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\ErrorPage\Error1.cshtml.g.cs
+C:\Users\DNCR\source\repos\CoreDemo\CoreDemo\obj\Debug\net5.0\refint\CoreDemo.dll
