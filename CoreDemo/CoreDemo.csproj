@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\Images\logo.png" />
     <None Include="wwwroot\weberror\css\font-awesome.css" />
     <None Include="wwwroot\weberror\css\style.css" />
     <None Include="wwwroot\weberror\fonts\fontawesome-webfont.eot" />
