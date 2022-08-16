@@ -1,5 +1,6 @@
 ﻿using BusinessLayer.Concrete;
 using BusinessLayer.ValidationRules;
+using DataAccessLayer.Concrete;
 using DataAccessLayer.EntityFramework;
 using EntityLayer.Concrete;
 using FluentValidation.Results;
@@ -13,7 +14,6 @@ using System.Threading.Tasks;
 
 namespace CoreDemo.Controllers
 {
-    [AllowAnonymous]
     public class BlogController : Controller
     {
         BlogManager bm = new BlogManager(new EfBlogRepository());
@@ -32,7 +32,10 @@ namespace CoreDemo.Controllers
 
         public IActionResult BlogListByWriter()
         {
-            var values = bm.GetListWithCategoryByWriterBm(1);
+            var userMail = User.Identity.Name;
+            Context c = new Context();
+            int writerId = c.Writers.FirstOrDefault(x => x.WriterMail == userMail).WriterID;
+            var values = bm.GetListWithCategoryByWriterBm(writerId);
             return View(values);
         }
 
@@ -53,6 +56,10 @@ namespace CoreDemo.Controllers
         [HttpPost]
         public IActionResult BlogAdd(Blog blog)
         {
+            var userMail = User.Identity.Name;
+            Context c = new Context();
+            int writerId = c.Writers.FirstOrDefault(x => x.WriterMail == userMail).WriterID;
+
             CategoryManager cm = new CategoryManager(new EfCategoryRepository());
             List<SelectListItem> categoryValues = (from x in cm.GetList()
                                                    select new SelectListItem
@@ -68,7 +75,7 @@ namespace CoreDemo.Controllers
             {
                 blog.BlogStatus = true;
                 blog.BlogCreateDate = DateTime.Now;
-                blog.WriterID = 1;
+                blog.WriterID = writerId;
                 bm.TAdd(blog);
                 return RedirectToAction("BlogListByWriter", "Blog");
             }
@@ -110,7 +117,11 @@ namespace CoreDemo.Controllers
         [HttpPost]
         public IActionResult EditBlog(Blog blog)
         {
-            blog.WriterID = 1;
+            var userMail = User.Identity.Name;
+            Context c = new Context();
+            int writerId = c.Writers.FirstOrDefault(x => x.WriterMail == userMail).WriterID;
+
+            blog.WriterID = writerId;
             blog.BlogCreateDate = DateTime.Now;
             blog.BlogStatus = true;
             bm.TUpdate(blog);
