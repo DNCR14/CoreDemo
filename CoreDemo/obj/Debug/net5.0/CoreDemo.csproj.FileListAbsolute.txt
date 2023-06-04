@@ -203,3 +203,11 @@ C:\Users\DNCR\source\repos\CoreDemo\CoreDemo\bin\Debug\net5.0\JetBrains.Annotati
 C:\Users\DNCR\source\repos\CoreDemo\CoreDemo\bin\Debug\net5.0\X.PagedList.dll
 C:\Users\DNCR\source\repos\CoreDemo\CoreDemo\bin\Debug\net5.0\X.PagedList.Mvc.Core.dll
 C:\Users\DNCR\source\repos\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Areas\Admin\Views\Category\AddCategory.cshtml.g.cs
+C:\Users\DNCR\source\repos\CoreDemo\CoreDemo\bin\Debug\net5.0\ClosedXML.dll
+C:\Users\DNCR\source\repos\CoreDemo\CoreDemo\bin\Debug\net5.0\DocumentFormat.OpenXml.dll
+C:\Users\DNCR\source\repos\CoreDemo\CoreDemo\bin\Debug\net5.0\ExcelNumberFormat.dll
+C:\Users\DNCR\source\repos\CoreDemo\CoreDemo\bin\Debug\net5.0\Irony.dll
+C:\Users\DNCR\source\repos\CoreDemo\CoreDemo\bin\Debug\net5.0\SixLabors.Fonts.dll
+C:\Users\DNCR\source\repos\CoreDemo\CoreDemo\bin\Debug\net5.0\System.IO.Packaging.dll
+C:\Users\DNCR\source\repos\CoreDemo\CoreDemo\bin\Debug\net5.0\XLParser.dll
+C:\Users\DNCR\source\repos\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Areas\Admin\Views\Blog\BlogListExcel.cshtml.g.cs
