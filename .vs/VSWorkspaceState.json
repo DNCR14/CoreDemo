@@ -1,6 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\CoreDemo",
+    "\\CoreDemo\\Areas",
+    "\\CoreDemo\\Areas\\Admin",
+    "\\CoreDemo\\Areas\\Admin\\Controllers",
+    "\\CoreDemo\\Areas\\Admin\\Views",
+    "\\CoreDemo\\Areas\\Admin\\Views\\Category"
   ],
   "SelectedNode": "\\CoreDemo.sln",
   "PreviewInSolutionExplorer": false
